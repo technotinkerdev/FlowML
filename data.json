@@ -1,0 +1,19 @@
+{
+  "start": "Start Process",
+  "steps": {
+    "Start Process": {
+      "next": "Check Condition"
+    },
+    "Check Condition": {
+      "yes": "Step A",
+      "no": "Step B"
+    },
+    "Step A": {
+      "next": "End"
+    },
+    "Step B": {
+      "next": "End"
+    }
+  },
+  "end": "End"
+}
